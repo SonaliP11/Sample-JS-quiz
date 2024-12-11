@@ -26,58 +26,21 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-/*
-.category {
+
+.category-buttons {
 
     margin-top: 10%;
     margin-left: 10%;
     margin-right: 10%;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #d7e613;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
-
-    }
-    */
-
-    /* Style for categories buttons */
-.category-buttons .btn {
-    flex: 1 1 calc(45% - 20px); /* Adjusted flex-basis to reduce button width */
-    padding: 10px;
-    font-size: 16px;
-    text-align: center;
-    text-decoration: none;
-    color: #333;
-    background-color: #e4e134;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin: 10px; /* Added margin to increase space between buttons */
+    gap: 20px;
 }
-
-.category-buttons .btn:hover {
-    background-color: #a0d4f7; /* Change background color on hover */
-    color: white; /* Change text color on hover */
-}
-
-
-
-.category-buttons button {
-    flex: 1;
-    margin: 0 10px;
-}
-
-.category-buttons i {
-    min-width: auto;
-    padding-right:2rem;
-
-}
-
-.category-buttons i:hover {
-    color: white; /* Change text color on hover */
-}
+    
 
